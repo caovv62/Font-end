@@ -1,11 +1,11 @@
 body{
-    background: #fff;
+    background:  rgb(165, 158, 158);
 }
 .menubar{
     margin: 0px;
     padding: 0px;
     background: #243243;
-    height: 100px;
+    height: 70px;
     width: 100%;
 }
 
@@ -21,7 +21,7 @@ body{
     display: inline-block;
     top: 10px;
     margin-left: 10px;
-    margin-top: 8px;
+    margin-top: -5px;
 }
 
 .menubar ul li a{
@@ -98,22 +98,24 @@ body{
 }*/
   
 .hotline{
-    height: 80px;
+    height: 50px;
     width: 100%;
-    background: #243243;
-    margin-top: 540px;
+    background: #2380f1;
+    margin-top: 580px;
     position: fixed;
+    opacity: 0.8;
 }
 
  
 
 .footer{
-    background: rgb(165, 158, 158);
+    background: #243243;
     margin-top: 6px;
-    height: 260px;
+    height: 210px;
     width: 100%;
     position: static;
     padding-top: 10px;
     font-size: 20px;
     padding-left: 20px;
+    color: white;
 }
