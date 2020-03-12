@@ -1,0 +1,28 @@
+.new{
+    background: rgb(165, 158, 158);
+    margin-top: 6px;
+    height: 300px;
+    width: 83%;
+    margin-left: 220px;
+}
+
+.new .picture{
+    display: inline-block;
+    line-height: 10px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+.new .title{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: black;
+    padding: 1px;
+    box-sizing: border-box;
+    border-bottom: 1px solid;
+    padding-left: 5px;
+}
+
+.new p{
+    text-align: center;
+}

@@ -1,0 +1,119 @@
+body{
+    background: #fff;
+}
+.menubar{
+    margin: 0px;
+    padding: 0px;
+    background: #243243;
+    height: 100px;
+    width: 100%;
+}
+
+/* menu bar*/
+.menubar ul{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+.menubar ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    top: 10px;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+.menubar ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.menubar ul li a:hover{
+    background: #0dbcf1;
+}
+
+/*search box*/
+.menubar .container-search input[type=text]{
+    float: right;
+    padding: 0px;
+    margin-top: -33px;
+    margin-right: 80px;
+    border: none;
+    font-size: 25px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.menubar .container-search button {
+    float: right;
+    padding: 5px 10px;
+    margin-top: -34px;
+    margin-right: 39px;
+    background: #ddd;
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+/*co dan --- Loi */
+/*@media(max-width: 909px){
+    .menubar ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: blue;
+        top: 110px;
+        left: 0;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    .menubar .container-search input[type=text]{
+        margin-top: 35px;
+    }
+
+    .menubar .container-search button{
+        margin-top: 35px;
+        margin-right: -341px;
+    } 
+
+    .menubar li{
+        display: block;
+        margin: 10px 0;
+    }
+    .menubar a{
+        float: none;
+        width: 100%;
+    }
+    a.active, a:hover{
+        border: none;
+        color: white;
+    }
+}*/
+  
+.hotline{
+    height: 80px;
+    width: 100%;
+    background: #243243;
+    margin-top: 540px;
+    position: fixed;
+}
+
+ 
+
+.footer{
+    background: rgb(165, 158, 158);
+    margin-top: 6px;
+    height: 260px;
+    width: 100%;
+    position: static;
+    padding-top: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+}
